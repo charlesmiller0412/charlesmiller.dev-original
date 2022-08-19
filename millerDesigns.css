@@ -1,0 +1,113 @@
+/* header */
+.navbar {
+    background-color: #1D334D;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-toggler{
+    border: none;
+    outline: none;
+}
+
+a:active {
+    background-color: #657B95;
+}
+
+#edge {
+    background-color: #657B95;
+    margin: none;
+    padding:none;
+}
+
+#logo a {
+    color: #FFF;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#sides {
+    background-color: #1D334D;
+}
+
+#drop {
+    background-color: #1D334D;
+    padding: .5rem;
+    border: 5px solid #8BA9CC;
+}
+
+#drop a {
+    color: #FFF;
+}
+
+#drop a:hover{
+    background-color: #FFF;
+    color: #1D334D;
+}
+
+#dd_active {
+    background-color: #FFF;
+}
+
+/* body */
+a {
+    color: white;
+}
+
+#contactList
+
+i {
+    color: #1D334D;
+}
+
+body p display-4{
+    font-family: 'Titillium Web', cursive;
+}
+
+#contactLinks {
+    color: #1D334D;
+    font-family: 'Titillium Web', cursive;
+}
+
+.comingSoon {
+    background-color: #657B95;
+    text-align: center;
+    color: white;
+}
+
+.navRight{
+    text-align: right;
+}
+
+#index .jumbotron {
+    background-image: url(imgs/jumbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 46%;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron:link,
+.jumbotron:visited {
+    color:white;
+}
+
+/* footer */
+.footer {
+    background-color: #1D334D;
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 992px) {
+
+    #contactList a {
+        text-align: right;
+    }
+
+    .form{
+        margin-left: .2rem;
+    }
+}
